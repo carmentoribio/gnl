@@ -9,5 +9,12 @@
 /*   Updated: 2024/09/26 16:45:14 by ctoribio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include "get_next_line.h"
 
+char	*get_next_line(int fd)
+{
+	char	buffer[BUFFER_SIZE]; // malloc
+	char	*line;
 
+	return (line);
+}
