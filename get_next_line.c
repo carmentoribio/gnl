@@ -13,8 +13,12 @@
 
 char	*get_next_line(int fd)
 {
-	char	buffer[BUFFER_SIZE]; // malloc
-	char	*line;
+	char		*buffer;
+	static char	*bucket = NULL;
+	char		*line;
 
+	buffer = malloc(sizeof(char *) * BUFFER_SIZE);
+	if (!buffer)
+		return (NULL);
 	return (line);
 }
